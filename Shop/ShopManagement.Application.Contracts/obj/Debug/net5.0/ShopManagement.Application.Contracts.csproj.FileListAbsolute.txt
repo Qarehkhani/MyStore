@@ -1,0 +1,15 @@
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\refint\ShopManagement.Application.Contracts.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll

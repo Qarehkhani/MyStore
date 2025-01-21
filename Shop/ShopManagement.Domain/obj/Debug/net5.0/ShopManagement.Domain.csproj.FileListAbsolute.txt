@@ -1,0 +1,17 @@
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\refint\ShopManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
