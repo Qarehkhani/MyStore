@@ -448,3 +448,13 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductCategories\Index.cshtml.g.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductCategories\Create.cshtml.g.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Create.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Edit.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Index.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Create.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Edit.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Index.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shared\_Menu.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Slides\Create.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Slides\Edit.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Slides\Index.cshtml.g.cs

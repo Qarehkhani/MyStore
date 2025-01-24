@@ -8,6 +8,7 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         OpreatinResult Create(CreateProductCategory command);
         OpreatinResult Edit(EditProductCategory command);
         EditProductCategory GetDetails(long id);
+        List<ProductCategoryViewModel> GetProductCategories();
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }
 }
