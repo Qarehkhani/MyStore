@@ -24,3 +24,5 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configurat
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.json
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.dev.json
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configuration\bin\Debug\net5.0\01_ShopQuery.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ShopManagement.Configuration\bin\Debug\net5.0\01_ShopQuery.pdb

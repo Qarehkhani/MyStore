@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuratio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{1547CE55-DA1B-4311-9449-F516637A6C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ShopQuery", "01_ShopQuery\01_ShopQuery.csproj", "{6BA744A0-5BD3-4EA9-8765-145B5941D9D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{1547CE55-DA1B-4311-9449-F516637A6C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1547CE55-DA1B-4311-9449-F516637A6C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1547CE55-DA1B-4311-9449-F516637A6C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA744A0-5BD3-4EA9-8765-145B5941D9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA744A0-5BD3-4EA9-8765-145B5941D9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA744A0-5BD3-4EA9-8765-145B5941D9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA744A0-5BD3-4EA9-8765-145B5941D9D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
