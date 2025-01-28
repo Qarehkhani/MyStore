@@ -1,0 +1,17 @@
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\refint\DiscountManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
