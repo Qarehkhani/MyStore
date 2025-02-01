@@ -19,6 +19,34 @@ namespace DiscountManagement.Infastructure.EFCore.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("DiscountManagement.Domain.ColleagueDiscountAgg.ColleagueDiscount", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DiscountRate")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Reason")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ColleagueDiscounts");
+                });
+
             modelBuilder.Entity("DiscountManagement.Domain.CustomerDiscountAgg.CustomerDiscount", b =>
                 {
                     b.Property<long>("Id")
@@ -29,7 +57,7 @@ namespace DiscountManagement.Infastructure.EFCore.Migrations
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DiscuntRate")
+                    b.Property<int>("DiscountRate")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("EndDate")

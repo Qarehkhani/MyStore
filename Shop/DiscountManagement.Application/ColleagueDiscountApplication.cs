@@ -53,6 +53,7 @@ namespace DiscountManagement.Application
                 return opreatin.Faild(ApplicationMessages.RecordNotFound);
 
             discoint.Remove();
+            _colleagueDiscountRepository.SaveChanges();
             return opreatin.Succedded();
         }
 
@@ -64,6 +65,7 @@ namespace DiscountManagement.Application
                 return opreatin.Faild(ApplicationMessages.RecordNotFound);
 
             discoint.Restore();
+            _colleagueDiscountRepository.SaveChanges();
             return opreatin.Succedded();
         }
 

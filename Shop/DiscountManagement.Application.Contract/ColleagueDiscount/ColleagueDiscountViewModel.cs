@@ -8,7 +8,7 @@
         public int DiscountRate { get; set; }
         public bool IsRemoved { get; set; }
         public string Reason { get; set; }
-         public string CreatonDate { get; set; }
+         public string CreationDate { get; set; }
     }
 
 }

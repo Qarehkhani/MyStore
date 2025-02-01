@@ -14,7 +14,7 @@ namespace DiscountManagement.Infastructure.EFCore.Migrations
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductId = table.Column<long>(type: "bigint", nullable: false),
-                    DiscuntRate = table.Column<int>(type: "int", nullable: false),
+                    DiscountRate = table.Column<int>(type: "int", nullable: false),
                     StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Reason = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),

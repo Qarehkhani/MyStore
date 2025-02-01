@@ -475,3 +475,16 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\CustomerDiscount\Create.cshtml.g.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\ColleagueDiscount\Create.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\ColleagueDiscount\Edit.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discounts\ColleagueDiscount\Index.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.Configuration.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.Configuration.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

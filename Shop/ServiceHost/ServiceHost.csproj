@@ -16,7 +16,23 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiscountManagement.Confogoration\DiscountManagement.Confogoration.csproj" />
+    <ProjectReference Include="..\InventoryMangement.Infrastructure.Configuration\InventoryMangement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Admin\Pages\Discounts\ColleagueDiscount\Create.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Admin\Pages\Discounts\ColleagueDiscount\Edit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Admin\Pages\Discounts\ColleagueDiscount\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

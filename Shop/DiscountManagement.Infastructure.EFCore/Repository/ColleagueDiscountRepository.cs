@@ -27,7 +27,7 @@ namespace DiscountManagement.Infastructure.EFCore.Repository
         {
             return _context.ColleagueDiscounts.Select(x => new EditColleagueDiscount
             {
-                Id = id,
+                Id = x.Id,
                 DiscountRate = x.DiscountRate,
                 ProductId = x.ProductId,
                 Reason = x.Reason
@@ -41,21 +41,31 @@ namespace DiscountManagement.Infastructure.EFCore.Repository
             {
                 Id=x.Id,
                 Reason = x.Reason,
-                CreatonDate=x.CreationDate.ToFarsi(),
+                CreationDate=x.CreationDate.ToFarsi(),
                 DiscountRate=x.DiscountRate,
-                ProductId=x.ProductId
+                ProductId=x.ProductId,
+                IsRemoved=x.IsRemoved
             });
 
             if (searchModel.ProductId>0)
                 query=query.Where(x => x.ProductId==searchModel.ProductId);
 
             if (!string.IsNullOrWhiteSpace(searchModel.Reason))
+            {
                 query=query.Where(x => x.Reason.Contains(searchModel.Reason));
+            }
+
 
             var discount = query.OrderByDescending(x => x.Id).ToList();
-            discount.ForEach(discount => discount.Product=products.FirstOrDefault(x => x.Id==discount.ProductId)?.Name);
+            discount.ForEach(discount =>
+            discount.Product= products.FirstOrDefault(x => x.Id==discount.ProductId)?.Name);
+
 
             return discount;
+
         }
+
+
+
     }
 }

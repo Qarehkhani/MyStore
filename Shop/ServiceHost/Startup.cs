@@ -1,4 +1,5 @@
 using DiscountManagement.Confogoration;
+using InventoryMangement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace ServiceHost
             var ConnectionStrings = Configuration.GetConnectionString("ConnectionStringsMyShopDb");
             ShopManagementBootstrapper.Configure(services, ConnectionStrings);
             DiscountManagementBootstrapper.Configure(services, ConnectionStrings);
+            InventoryManagementBootstrapper.Configure(services, ConnectionStrings);
             services.AddRazorPages();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -21,12 +21,12 @@ namespace DiscountManagement.Application
         public OpreatinResult Define(DefineCustomerDiscount command)
         {
             var opreation = new OpreatinResult();
-            if (_customerDiscountRepository.Exists(x => x.ProductId==command.ProductId && x.DiscuntRate==command.DiscuntRate))
+            if (_customerDiscountRepository.Exists(x => x.ProductId==command.ProductId && x.DiscountRate==command.DiscountRate))
                 return opreation.Faild(ApplicationMessages.DuplicatedRecord);
 
             var startDate = command.StartDate.ToGeorgianDateTime();
             var endDate = command.EndDate.ToGeorgianDateTime();
-            var customerDiscount = new CustomerDiscount(command.ProductId, command.DiscuntRate, startDate, endDate, command.Reason);
+            var customerDiscount = new CustomerDiscount(command.ProductId, command.DiscountRate, startDate, endDate, command.Reason);
 
             _customerDiscountRepository.Create(customerDiscount);
             _customerDiscountRepository.SaveChanges();
@@ -40,12 +40,12 @@ namespace DiscountManagement.Application
             if (customerDiscount == null)
                 return opreation.Faild(ApplicationMessages.RecordNotFound);
 
-            if (_customerDiscountRepository.Exists(x => x.ProductId==command.ProductId && x.DiscuntRate==command.DiscuntRate && x.Id !=command.Id))
+            if (_customerDiscountRepository.Exists(x => x.ProductId==command.ProductId && x.DiscountRate==command.DiscountRate && x.Id !=command.Id))
                 return opreation.Faild(ApplicationMessages.DuplicatedRecord);
 
             var startDate = command.StartDate.ToGeorgianDateTime();
             var endDate = command.EndDate.ToGeorgianDateTime();
-            customerDiscount.Edit(command.ProductId, command.DiscuntRate, startDate, endDate, command.Reason);
+            customerDiscount.Edit(command.ProductId, command.DiscountRate, startDate, endDate, command.Reason);
             _customerDiscountRepository.SaveChanges();
             return opreation.Succedded();
         }

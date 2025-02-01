@@ -22,6 +22,7 @@ namespace DiscountManagement.Domain.ColleagueDiscountAgg
             ProductId=productId;
             DiscountRate=discountRate;
             Reason=reason;
+            IsRemoved=false;
         }
 
         public void Edit(long productId, int discountRate, string reason)
@@ -33,7 +34,7 @@ namespace DiscountManagement.Domain.ColleagueDiscountAgg
 
         public void Remove()
         {
-            IsRemoved=true ;
+            IsRemoved=true;
         }
 
         public void Restore()

@@ -31,7 +31,7 @@ namespace DiscountManagement.Infastructure.EFCore.Migrations
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DiscuntRate")
+                    b.Property<int>("DiscountRate")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("EndDate")

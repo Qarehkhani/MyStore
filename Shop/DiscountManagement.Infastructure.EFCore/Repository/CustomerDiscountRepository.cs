@@ -26,11 +26,11 @@ namespace DiscountManagement.Infastructure.EFCore.Repository
 
         public EditCustomerDiscount GetDetails(long id)
         {
-            return _context.customerDiscounts.Select(x => new EditCustomerDiscount
+            return _context.CustomerDiscounts.Select(x => new EditCustomerDiscount
             {
                 Id = x.Id,
                 ProductId = x.ProductId,
-                DiscuntRate=x.DiscuntRate,
+                DiscountRate=x.DiscountRate,
                 StartDate=x.StartDate.ToString(),
                 EndDate=x.EndDate.ToString(),
                 Reason=x.Reason
@@ -40,11 +40,11 @@ namespace DiscountManagement.Infastructure.EFCore.Repository
         public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel)
         {
             var products = _shopContext.Products.Select(x => new { x.Id, x.Name }).ToList();
-            var query = _context.customerDiscounts.Select(x => new CustomerDiscountViewModel
+            var query = _context.CustomerDiscounts.Select(x => new CustomerDiscountViewModel
             {
                 Id = x.Id,
                 ProductId = x.ProductId,
-                DiscuntRate=x.DiscuntRate,
+                DiscountRate=x.DiscountRate,
                 StartDate=x.StartDate.ToFarsi(),
                 StartDateGr=x.StartDate,
                 EndDate=x.EndDate.ToFarsi(),
