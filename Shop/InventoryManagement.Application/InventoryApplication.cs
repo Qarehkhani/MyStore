@@ -53,7 +53,7 @@ namespace InventoryManagement.Application
 
         public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.GetOperationLog(inventoryId);
         }
 
         public OpreatinResult Increase(IncreaseInventory command)

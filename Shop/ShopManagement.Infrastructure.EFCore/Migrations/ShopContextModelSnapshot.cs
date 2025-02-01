@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShopManagement.Infrastructure.EFCore.ShopManagement.Infrastructure.EFCore;
+using ShopManagement.Infrastructure.EFCore;
 
 namespace ShopManagement.Infrastructure.EFCore.Migrations
 {
@@ -39,9 +39,6 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsInStock")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Keywords")
                         .IsRequired()
@@ -78,9 +75,6 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
-
-                    b.Property<double>("UnitPrice")
-                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

@@ -7,8 +7,8 @@ using ShopManagement.Infrastructure.EFCore.Mapping;
 
 namespace ShopManagement.Infrastructure.EFCore
 {
-    namespace ShopManagement.Infrastructure.EFCore
-    {
+    //namespace ShopManagement.Infrastructure.EFCore
+    //{
         public class ShopContext : DbContext
         {
             public DbSet<Product> Products { get; set; }
@@ -27,4 +27,4 @@ namespace ShopManagement.Infrastructure.EFCore
             }
         }
     }
-}
+//}

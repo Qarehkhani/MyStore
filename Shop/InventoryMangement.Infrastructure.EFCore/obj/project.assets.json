@@ -1533,34 +1533,6 @@
           "bin/placeholder/0_Framework.dll": {}
         }
       },
-      "InventoryManagement.Application.Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "0_Framework": "1.0.0",
-          "ShopManagement.Application.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
-        }
-      },
-      "InventoryManagement.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "0_Framework": "1.0.0",
-          "InventoryManagement.Application.Contract": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagement.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagement.Domain.dll": {}
-        }
-      },
       "ShopManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5876,16 +5848,6 @@
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
-    "InventoryManagement.Application.Contract/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj",
-      "msbuildProject": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj"
-    },
-    "InventoryManagement.Domain/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj",
-      "msbuildProject": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj"
-    },
     "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application.Contracts/ShopManagement.Application.Contracts.csproj",
@@ -5904,7 +5866,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "InventoryManagement.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
@@ -5918,9 +5879,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
-      "projectName": "InventoryMangement.Infrastructure.EFCore",
-      "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+      "projectUniqueName": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+      "projectName": "InventoryManagement.Infrastructure.EFCore",
+      "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\Sorena Pardaz\\.nuget\\packages\\",
       "outputPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
@@ -5943,9 +5904,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
-            },
             "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }

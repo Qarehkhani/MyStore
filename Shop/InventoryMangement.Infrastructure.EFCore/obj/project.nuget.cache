@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F5Cosqs0/DqzJtlZpbOrrasHWmsxoQhaF4n/dhYgIY8yS9Ty/asM9eKG+1gV5wZa7TtLUcILqhTrrTw7F19agQ==",
+  "dgSpecHash": "yqj+R6NBiYxlIxaJbCkh1pB1X3l6k9t0GCvlDl/d0eexRiMh+KTlFydAPqp2mrr2vtuv1LU/OphnF6ldUe/VaA==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sorena Pardaz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sorena Pardaz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

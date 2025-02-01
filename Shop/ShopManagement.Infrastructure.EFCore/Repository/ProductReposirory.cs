@@ -3,7 +3,7 @@ using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Infrastructure.EFCore.ShopManagement.Infrastructure.EFCore;
+using ShopManagement.Infrastructure.EFCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -33,7 +33,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 Slug = x.Slug,
                 CategoryId = x.CategoryId,
-                UnitPrice = x.UnitPrice,
+                //UnitPrice = x.UnitPrice,
             }).FirstOrDefault(x => x.Id == Id);
         }
 
@@ -56,8 +56,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Category=x.Category.Name,
                 CategoryId=x.CategoryId,
                 Picture=x.Picture,
-                UnitPrice=x.UnitPrice,
-                IsInStock=x.IsInStock,
+                //UnitPrice=x.UnitPrice,
+                //IsInStock=x.IsInStock,
                 CreationDate = x.CreationDate.ToFarsi()
             });
 

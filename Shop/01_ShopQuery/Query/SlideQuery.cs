@@ -1,5 +1,5 @@
 ﻿using _01_ShopQuery.Contract.Slide;
-using ShopManagement.Infrastructure.EFCore.ShopManagement.Infrastructure.EFCore;
+using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

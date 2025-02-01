@@ -3,7 +3,7 @@ using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
-using ShopManagement.Infrastructure.EFCore.ShopManagement.Infrastructure.EFCore;
+using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

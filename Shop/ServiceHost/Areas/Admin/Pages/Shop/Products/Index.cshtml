@@ -65,8 +65,6 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>قیمت</th>
-                                    <th>موجودی</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -82,7 +80,7 @@
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.Category</td>
-                                        <td>@item.UnitPrice</td>
+@*                                        <td>@item.UnitPrice</td>
                                         <td class="text-center">
                                             @if (item.IsInStock)
                                             {
@@ -92,14 +90,14 @@
                                             {
                                                 <i class="fa fa-2x fa-remove text-danger"></i>
                                             }
-                                        </td>
+                                        </td>*@
                                         <td>@item.CreationDate</td>
                                         <td>
                                             <a class="btn btn-warning btn-custom waves-effect waves-light pull-right m-rl-5"
                                            href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
-                                            @if (item.IsInStock)
+       @*                                     @if (item.IsInStock)
                                             {
                                                 <a class="btn btn-danger btn-custom waves-effect waves-light pull-right m-rl-5" 
                                                 asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id">
@@ -112,7 +110,7 @@
                                                 asp-page="./Index" asp-page-handler="IsInStock" asp-route-id="@item.Id">
                                                     <i class="fa fa-battery-full" aria-hidden="true"></i> شارژ شد!
                                                 </a>
-                                            }
+                                            }*@
 
                                         </td>
                                     </tr>

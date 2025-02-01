@@ -297,6 +297,9 @@
               "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
                 "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
+              "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              },
               "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Learning\\Web App\\Atrya - ASP.Net Core 5\\MyShop\\Shop\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj"
               }

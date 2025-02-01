@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using Microsoft.EntityFrameworkCore;
@@ -9,14 +10,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryMangement.Infrastructure.EFCore.Repository
+namespace InventoryManagement.Infrastructure.EFCore.Repository
 {
     public class InventoryRepository : RepositoryBase<long, Inventory>, IInventoryRepository
     {
         private readonly InventoryContext _inventoryContext;
         private readonly ShopContext _shopContext;
 
-        public InventoryRepository(InventoryContext inventoryContext,ShopContext shopContext):base(inventoryContext)
+        public InventoryRepository(InventoryContext inventoryContext, ShopContext shopContext) : base(inventoryContext)
         {
             _shopContext=shopContext;
             _inventoryContext =inventoryContext;
@@ -29,38 +30,50 @@ namespace InventoryMangement.Infrastructure.EFCore.Repository
 
         public EditInventory GetDetails(long id)
         {
-            return _inventoryContext.Inventory.Select(x => new EditInventory 
+            return _inventoryContext.Inventory.Select(x => new EditInventory
             {
                 Id = id,
                 ProductId = x.ProductId,
-                UnitPrice = x.UnitPrice            
+                UnitPrice = x.UnitPrice
             }).FirstOrDefault(x => x.Id==id);
         }
 
         public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
         {
-            throw new NotImplementedException();
+            var inventory = _inventoryContext.Inventory.FirstOrDefault(x => x.Id==inventoryId);
+            return inventory.Operations.Select(x => new InventoryOperationViewModel
+            {
+                Id =x.Id,
+                Count=x.Count,
+                CurrentCount=x.CurentCount,
+                Description=x.Description,
+                Operation=x.Operation,
+                OperationDate=x.OperationDate.ToFarsi(),
+                Operator="مدیر سیستم",
+                OperatorId=x.OperatorId,
+                OrderId=x.OrderId
+            }).OrderByDescending(x=>x.Id).ToList();
         }
 
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
             var products = _shopContext.Products.Select(x => new { x.Id, x.Name }).ToList();
-            var query= _inventoryContext.Inventory.Select(x => new InventoryViewModel
+            var query = _inventoryContext.Inventory.Select(x => new InventoryViewModel
             {
                 Id=x.Id,
                 UnitPrice=x.UnitPrice,
                 InStock=x.InStock,
                 ProductId=x.ProductId,
-                CurrentCount=x.CalculateCurrentCount()                
+                CurrentCount=x.CalculateCurrentCount()
             });
 
             if (searchModel.ProductId>0)
-                 query=query.Where(x => x.ProductId==searchModel.ProductId);
+                query=query.Where(x => x.ProductId==searchModel.ProductId);
 
-            if (!searchModel.InStock)
+            if (searchModel.InStock)
                 query=query.Where(x => !x.InStock);
 
-            var inventory=query.OrderByDescending(x=>x.Id).ToList();
+            var inventory = query.OrderByDescending(x => x.Id).ToList();
 
             inventory.ForEach(item =>
             {

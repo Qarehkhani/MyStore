@@ -1,5 +1,5 @@
 using DiscountManagement.Confogoration;
-using InventoryMangement.Infrastructure.Configuration;
+using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

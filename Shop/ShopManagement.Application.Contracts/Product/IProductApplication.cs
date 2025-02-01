@@ -7,8 +7,6 @@ namespace ShopManagement.Application.Contracts.Product
     {
         OpreatinResult Create(CreateProduct command);
         OpreatinResult Edit(EditProduct command);
-        OpreatinResult IsStock(long Id);
-        OpreatinResult NotInStock(long Id);
         EditProduct GetDetails(long Id);
         List<ProductViewModel> Search(ProductSearchModel searchModel);
         List<ProductViewModel> GetProducts();
