@@ -3,7 +3,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfoInputs.cache
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfo.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CoreCompileInputs.cache
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cache
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cs
@@ -50,7 +49,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -134,7 +132,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -193,7 +190,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.Pipelines.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.Pipes.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Linq.dll
@@ -234,7 +230,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Runtime.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -268,7 +263,6 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.Encoding.CodePages.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.Encoding.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.Encoding.Extensions.dll
-D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.Json.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Text.RegularExpressions.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\refs\System.Threading.Channels.dll
@@ -494,3 +488,12 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivalsProduct\Default.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.Text.Encodings.Web.dll

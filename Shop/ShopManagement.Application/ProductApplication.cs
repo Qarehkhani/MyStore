@@ -1,29 +1,37 @@
 ﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
+using ShopManagement.Domain.ProductCategoryAgg;
 using System.Collections.Generic;
 
 namespace ShopManagement.Application
 {
     public class ProductApplication : IProductApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProductRepository _productRepository;
-        public ProductApplication(IProductRepository productRepository)
+        private readonly IProductCategoryRepository _productCategoryRepository;
+
+        public ProductApplication(IProductRepository productRepository, IFileUploader fileUploader, IProductCategoryRepository productCategoryRepository)
         {
             _productRepository=productRepository;
+            _fileUploader=fileUploader;
+            _productCategoryRepository=productCategoryRepository;
         }
 
         public OpreatinResult Create(CreateProduct command)
         {
-            var opreation  = new OpreatinResult();
-            if (_productRepository.Exists(x=>x.Name==command.Name))
+            var opreation = new OpreatinResult();
+            if (_productRepository.Exists(x => x.Name==command.Name))
                 return opreation.Faild(ApplicationMessages.DuplicatedRecord);
 
             var slug = GenerateSlug.Slugify(command.Slug);
-
+            var categorySlog = _productCategoryRepository.GetSlogById(command.CategoryId);
+            var picturePath = $"{categorySlog}/{slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
             var product = new Product(command.Name, command.Code,
                                     command.ShortDescription, command.Description,
-                                    command.Picture, command.PictureAlt, command.PictureTitle,
+                                    pictureName, command.PictureAlt, command.PictureTitle,
                                     slug, command.Keywords, command.MetaDescription, command.CategoryId);
             _productRepository.Create(product);
             _productRepository.SaveChanges();
@@ -34,7 +42,7 @@ namespace ShopManagement.Application
         public OpreatinResult Edit(EditProduct command)
         {
             var opreation = new OpreatinResult();
-            var product = _productRepository.Get(command.Id);
+            var product = _productRepository.GetProductWithCategory(command.Id);
             if (product==null)
                 return opreation.Faild(ApplicationMessages.RecordNotFound);
 
@@ -42,9 +50,13 @@ namespace ShopManagement.Application
                 return opreation.Faild(ApplicationMessages.DuplicatedRecord);
 
             var slug = GenerateSlug.Slugify(command.Slug);
+
+            var picturePath = $"{product.Category.Slug}/{slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
+
             product.Edit(command.Name, command.Code,
                                     command.ShortDescription, command.Description,
-                                    command.Picture, command.PictureAlt, command.PictureTitle,
+                                    pictureName, command.PictureAlt, command.PictureTitle,
                                     slug, command.Keywords, command.MetaDescription, command.CategoryId);
 
             _productRepository.SaveChanges();
@@ -59,7 +71,7 @@ namespace ShopManagement.Application
 
         public List<ProductViewModel> GetProducts()
         {
-            return _productRepository.GetProducts();    
+            return _productRepository.GetProducts();
         }
 
         //public OpreatinResult IsStock(long Id)
@@ -68,7 +80,7 @@ namespace ShopManagement.Application
         //    var product = _productRepository.Get(Id);
         //    if (product==null)
         //        return opreation.Faild(ApplicationMessages.RecordNotFound);
-            
+
         //    product.InStock();
         //    _productRepository.SaveChanges();
         //    return opreation.Succedded();

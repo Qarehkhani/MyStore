@@ -4,7 +4,9 @@ namespace _01_ShopQuery.Contract.ProductCategory
 {
     public interface IProductCategoryQuery
     {
-        List<ProductCategoryQueryModel>  GetProductCategories(); 
+        ProductCategoryQueryModel GetProductCategoryWithProductsBy(string slug);
+        List<ProductCategoryQueryModel> GetProductCategories();
+        List<ProductCategoryQueryModel> GetProductCategoriesWithProducts();
     }
 
 }

@@ -19,3 +19,15 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\obj\Debug\ne
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\obj\Debug\net5.0\refint\01_ShopQuery.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\obj\Debug\net5.0\01_ShopQuery.pdb
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\obj\Debug\net5.0\ref\01_ShopQuery.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Infastructure.EFCore.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Infastructure.EFCore.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\01_ShopQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb

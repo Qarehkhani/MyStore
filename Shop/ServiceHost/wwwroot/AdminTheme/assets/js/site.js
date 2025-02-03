@@ -209,3 +209,16 @@ jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 //        }
 //    });
 //jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+
+
+jQuery.validator.addMethod("validExtentions",
+    function (value, element, params) {
+        var extention = ['.jpeg', '.jpg', '.png', '.gif', '.tiff'];
+        var fileextention = element.files[0].extention;
+        if (!fileextention.contains(extention))
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("validExtentions");

@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using DiscountManagement.Confogoration;
 using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +31,8 @@ namespace ServiceHost
             ShopManagementBootstrapper.Configure(services, ConnectionStrings);
             DiscountManagementBootstrapper.Configure(services, ConnectionStrings);
             InventoryManagementBootstrapper.Configure(services, ConnectionStrings);
+
+            services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
