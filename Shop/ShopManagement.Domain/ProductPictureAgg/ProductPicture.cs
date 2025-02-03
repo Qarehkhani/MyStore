@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.ProductPictureAgg
 {
-    public class ProductPicture:EntityBase
+    public class ProductPicture : EntityBase
     {
-        public long ProductId { get;private set; }
-        public string Picture { get;private set; }
-        public string PictureAlt { get;private set; }
+        public long ProductId { get; private set; }
+        public string Picture { get; private set; }
+        public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
         public bool IsRemoved { get; private set; }
 
@@ -30,7 +30,10 @@ namespace ShopManagement.Domain.ProductPictureAgg
         public void Edit(long productId, string picture, string pictureAlt, string pictureTitle)
         {
             ProductId=productId;
-            Picture=picture;
+           
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture=picture;
+            
             PictureAlt=pictureAlt;
             PictureTitle=pictureTitle;
         }

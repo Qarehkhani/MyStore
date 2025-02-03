@@ -22,9 +22,9 @@ namespace ShopManagement.Application
                 return opreation.Faild(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
             var picturePath = $"{slug}";
-            var fileName = _fileUploader.Upload(command.Picture , picturePath);
+            var pictureName = _fileUploader.Upload(command.Picture , picturePath);
             var productcategory = new ProductCategory(command.Name, command.Description,
-                                                    fileName, command.PictureAlt, command.PictureAlt,
+                                                    pictureName, command.PictureAlt, command.PictureAlt,
                                                     command.KeyWords, command.MetaDescription, slug);
             _productCategoryRepository.Create(productcategory);
             _productCategoryRepository.SaveChanges();
@@ -44,9 +44,9 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.Slugify();
             var picturePath = $"{slug}";
-            var fileName = _fileUploader.Upload(command.Picture, picturePath);
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
             productcategory.Edit(command.Name, command.Description,
-                                 fileName, command.PictureAlt, command.PictureAlt,
+                                 pictureName, command.PictureAlt, command.PictureAlt,
                                  command.KeyWords, command.MetaDescription, slug);
 
             _productCategoryRepository.SaveChanges();
