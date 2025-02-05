@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model ServiceHost.Pages.ProductCategoryModel
 @{
     ViewData["Title"]=Model.productCategory.Name;
@@ -78,7 +78,7 @@
                                                             </div>
                                                         }
                                                         <a asp-page="/Product" asp-route-id="@product.Slug">
-                                                            <img src="~/upload/images/ProductPictures/@product.Picture" class="img-fluid"
+                                                            <img src="~/upload/ProductPictures/@product.Picture" class="img-fluid"
                                                                  alt="@product.PictureAlt" title="@product.PictureTitle">
                                                         </a>
                                                     </div>

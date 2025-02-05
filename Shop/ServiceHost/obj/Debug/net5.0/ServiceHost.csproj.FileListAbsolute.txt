@@ -497,3 +497,4 @@ D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\Learning\Web App\Atrya - ASP.Net Core 5\MyShop\Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
